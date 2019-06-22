@@ -1,0 +1,9 @@
+---
+# App1 ConfigMap
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app2-config
+  namespace: production
+data:
+  PORT: 8081

@@ -67,6 +67,7 @@ func main() {
 	validate()
 
 	// Register API endpoints
+	http.HandleFunc("/health", health)
 	http.HandleFunc("/reverse", handler)
 
 	// Listen and serve API's

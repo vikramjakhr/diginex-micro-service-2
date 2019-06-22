@@ -2,7 +2,7 @@ FROM gcr.io/gcp-runtimes/go1-builder:1.12 as builder
 
 LABEL maintainer="vikram.jakhr@gmail.com"
 LABEL go_version="1.12"
-LABEL description="Diginex microservice 1"
+LABEL description="Diginex microservice 2"
 
 WORKDIR /go/src/app
 COPY . .

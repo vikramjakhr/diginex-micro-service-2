@@ -8,6 +8,7 @@ import (
 	"os"
 	"strconv"
 )
+
 // Command line flags
 var port = flag.String("port", "8081", "port on which application will run")
 
@@ -31,6 +32,7 @@ Examples:
   # sample usage
   dignex-micro-service-2 --port 8081
 `
+
 // Show usage message and exit
 func usageExit(rc int) {
 	fmt.Println(usage)

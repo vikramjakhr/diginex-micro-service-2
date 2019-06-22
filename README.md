@@ -28,7 +28,8 @@ Examples:
   dignex-micro-service-2 help
 
   # sample usage
-  dignex-micro-service-2 --port 8081
+  dignex-micro-service-2
+  dignex-micro-service-2 --port=8081
 
 ```
 
